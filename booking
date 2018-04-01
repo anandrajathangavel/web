@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Hotel Stay | Best hotel in Chennai</title>
+
+<!-- Google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800|Old+Standard+TT' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800' rel='stylesheet' type='text/css'>
+
+<!-- font awesome -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+<!-- uniform -->
+<link type="text/css" rel="stylesheet" href="assets/uniform/css/uniform.default.min.css" />
+
+<!-- animate.css -->
+<link rel="stylesheet" href="assets/wow/animate.css" />
+
+
+<!-- gallery -->
+<link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- favicon -->
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="assets/style.css">
+
+        
+        <title>Date Picker</title>
+        <link href="assets/main.css" rel="stylesheet" type="text/css"/>
+        <style>
+            form{
+                max-width: 600px;
+                margin: 100px auto;
+            }
+        </style>
+    </head>
+    
+
+
+ 
+
+    <body id="home">
+     <nav class="navbar  navbar-default" role="navigation">
+  <div class="container">
+   <a class="navbar-brand" href="index.php"><img src="images/logo.png"  alt="holiday stay"></a>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+      
+      <ul class="nav navbar-nav">        
+        <li><a href="index.php">Home </a></li>
+        <li><a href="rooms.php">Rooms</a></li>
+              <li><a href="facilities.php">Facilities</a></li>      
+          <li><a href="#information" class="scroll">Book Online</a></li>
+        <li><a href="gallery.php">Gallery</a></li>
+        <li><a href="location.php">Locate Us</a></li>
+      </ul>
+    </div><!-- Wnavbar-collapse -->
+  </div><!-- container-fluid -->
+</nav>
+   
+    
+<!-- header -->
+
+
+
+
+
+<!-- banner -->
+<div class="banner">    	   
+    <img src="images/photos/banner.jpg"  class="img-responsive" alt="slide">
+    <div class="welcome-message">
+        <div class="wrap-info">
+            <div class="information">
+                <h1  class="animated fadeInDown">Best hotel in OMR, Chennai.</h1>
+                <p class="animated fadeInUp">Most luxurious hotel with the royal treatments and excellent customer service.</p>                
+            </div>
+            <a href="#information" class="arrow-nav scroll wowload fadeInDownBig"><i class="fa fa-angle-down"></i></a>
+        </div>
+    </div>
+</div>
+<!-- banner-->
+<!-- reservation-information -->
+<div id="information" class="spacer reserve-info ">
+<div class="container">
+<div class="row">
+<div class="col-sm-7 col-md-8">
+    <div class="embed-responsive embed-responsive-16by9 wowload fadeInLeft"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZQEqf9KX9N8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+</div>
+
+<div class="col-sm-5 col-md-4">
+<h3>Reservation</h3>
+      <script>jQuery(document).ready(function(){
+    // This button will increment the value
+    $('.qtyplus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        fieldName = $(this).attr('field');
+        // Get its current value
+        var currentVal = parseInt($('input[name='+fieldName+']').val());
+        // If is not undefined
+        if (!isNaN(currentVal)) {
+            // Increment
+            $('input[name='+fieldName+']').val(currentVal + 1);
+        } else {
+            // Otherwise put a 0 there
+            $('input[name='+fieldName+']').val(1);
+        }
+    });
+    // This button will decrement the value till 0
+    $(".qtyminus").click(function(e) {
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        fieldName = $(this).attr('field');
+        // Get its current value
+        var currentVal = parseInt($('input[name='+fieldName+']').val());
+        // If it isn't undefined or its greater than 0
+        if (!isNaN(currentVal) && currentVal > 0) {
+            // Decrement one
+            $('input[name='+fieldName+']').val(currentVal - 1);
+        } else {
+            // Otherwise put a 0 there
+            $('input[name='+fieldName+']').val(0);
+        }
+    });
+});
+          
+</script>
+            
+   <script>
+function myFunction() {
+    var x = document.getElementById("myText").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>   
+        
+       
+    
+ 
+    <form role="form" id='myform' method='GET' action='availability.php' name="form" class="wowload fadeInRight">
+        
+              
+       
+        <div class="form-group">
+            <div class="row">
+            <div class="col-xs-6">
+                           <label>Check In</label>
+                           <input class="form-control" name="from" type="text" id="depart" placeholder="YYYY-MM-DD" required>
+
+            </div>        
+            <div class="col-xs-6">
+            <label>Check Out</label>
+                  <input class="form-control"  name="to" type="text" id="return" placeholder="YYYY-MM-DD" required>
+              
+            </div></div>
+        </div>
+        <div class="form-group control">
+            <div class="row">
+            <div class="col-xs-6" >
+             <label>Number of Rooms</label>  
+              <input  type='button' value='+' class='qtyplus btn1 btn-default' onclick='myFunction()' field='quantity'  />
+             
+   <input  type="text" name='quantity' class='qty' placeholder='0' required/>
+   
+           <input  type='button' value='-' class='qtyminus btn1 btn-default' field='quantity' />
+            </div>
+            <div class="col-xs-6">
+                <label>Number of Persons </label>  
+                
+                
+            
+                <select class="form-control" name="persons" required>
+            
+    <?php for ($i = 1; $i <=54; $i++) : ?>
+        
+        <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+    <?php endfor; ?>
+</select>
+            </div> </div>
+        </div>
+      
+             <div class="form-group">
+                            <div align="center">
+                     <label>Select Room type </label>  
+                
+                
+            
+<select class="form-control" name="roomtype" required>
+ <option disabled selected value> -- Choose a Room Type -- </option>
+<option value="twin">Deluxe Room</option>
+<option value="master">Premium Room</option>
+</select>
+                 </div>
+             
+
+         
+	
+        
+                                      
+                        </div>
+                       
+        <div class="form-group">
+           <div align="center">
+            
+          <input  type="submit" name="submit" class="btn btn-default" value='Check Availability' /> 
+        </div>
+        </div>
+        
+             
+        
+        
+    </form>
+    
+
+         
+    </div>
+</div>  
+</div>
+</div>
+
+<!-- reservation-information -->
+
+     <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function () {
+
+
+                $("#depart").datepicker({
+                    showAnim: 'drop',
+                    numberOfMonth: 1,
+                    dateFormat: 'yy-mm-dd',
+                    minDate: 0,
+                    onClose: function (selectedDate) {
+                        $("#return").datepicker("option", "minDate", selectedDate);
+                    }
+                });
+
+
+
+                $("#return").datepicker({
+                    showAnim: 'drop',
+                    numberOfMonth: 1,
+                    dateFormat: 'yy-mm-dd',
+                    onClose: function (selectedDate) {
+                        $("#depart").datepicker("option", "maxDate", selectedDate);
+                    }
+                });
+
+            });
+
+
+        </script>
+        <!-- services -->
+<div class="spacer services wowload fadeInUp">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <!-- RoomCarousel -->
+            <div id="RoomCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="item active"><a href="images/photos/3.jpg" class="gallery-image" data-gallery><img src="images/photos/3.jpg" class="img-responsive" alt="slide"></a></div>                
+                    <div class="item  height-full"><a href="images/photos/4.jpg" class="gallery-image" data-gallery><img src="images/photos/4.jpg"  class="img-responsive" alt="slide"></a></div>
+                    <div class="item  height-full"><a href="images/photos/5.jpg" class="gallery-image" data-gallery><img src="images/photos/5.jpg"  class="img-responsive" alt="slide"></a></div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#RoomCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                <a class="right carousel-control" href="#RoomCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <!-- RoomCarousel-->
+            <div  class="caption"><a type="button" href="gallery.php">Rooms</a><a type="button" href="gallery.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+        </div>
+
+
+        <div class="col-sm-4">
+            <!-- RoomCarousel -->
+            <div id="TourCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="item active"><a href="images/photos/2.jpg" class="gallery-image" data-gallery><img src="images/photos/2.jpg" class="img-responsive" alt="slide"></a></div>                
+                    <div class="item  height-full"><a href="images/photos/11.jpg" class="gallery-image" data-gallery><img src="images/photos/11.jpg"  class="img-responsive" alt="slide"></a></div>
+                    <div class="item  height-full"><a href="images/photos/8.jpg" class="gallery-image" data-gallery><img src="images/photos/8.jpg"  class="img-responsive" alt="slide"></a></div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#TourCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                <a class="right carousel-control" href="#TourCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <!-- RoomCarousel-->
+            <div  class="caption"><a type="button" href="gallery.php">Gallery</a><a type="button" href="gallery.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+        </div>
+
+
+        <div class="col-sm-4">
+            <!-- RoomCarousel -->
+            <div id="FoodCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="item active"><a href="images/photos/1.jpg" class="gallery-image" data-gallery><img src="images/photos/1.jpg" class="img-responsive" alt="slide"></a></div>                
+                    <div class="item  height-full"><a href="images/photos/12.jpg" class="gallery-image" data-gallery><img src="images/photos/12.jpg"  class="img-responsive" alt="slide"></a></div>
+                    <div class="item  height-full"><a href="images/photos/10.jpg" class="gallery-image" data-gallery><img src="images/photos/10.jpg"  class="img-responsive" alt="slide"></a></div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#FoodCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                <a class="right carousel-control" href="#FoodCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <!-- RoomCarousel-->
+            <div  class="caption"><a type="button" href="gallery.php">Ambience</a><a type="button" href="gallery.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- services -->
+
+
+<footer class="spacer">
+        <div class="container">
+            <div class="row">
+                             
+                 
+                 <div class="col-sm-3">
+                    
+                </div>
+                 <div class="col-sm-4 subscribe">
+                   
+                    <div class="social wowload fadeInLeft">
+                    <a>HotelStay</a><br>
+                    <a><font size="3"> No.4, ,<br> Chennai - 600119, 
+                        Tamilnadu, India.</font></a>
+                   <!-- <a href="#"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
+                    <a href="#"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>
+                    <a href="#"><i class="fa fa-tumblr-square" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>
+                    <a href="#"><i class="fa fa-youtube-square" data-toggle="tooltip" data-placement="top" data-original-title="youtube"></i></a>-->
+                    </div>
+                    
+                </div>
+                <img src="images/call.png" class="wowload fadeInRight" width="25" height="25"><a><font size="4"> (+91)- 7397287879</font></a><br>
+                <img src="images/mail.png" class="wowload fadeInRight" width="25" height="25"><a><font size="4">  reservations@holidaystay.in</font></a> 
+            </div>
+            <!--/.row--> 
+            
+        </div>
+        <!--/.container-->    
+    
+    <!--/.footer-bottom--> 
+    
+</footer>
+    </body>
+</html>
